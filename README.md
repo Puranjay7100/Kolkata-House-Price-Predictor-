@@ -4,20 +4,20 @@ A machine learning-powered web app built using Streamlit to predict house prices
 
 ---
 
-##🌐 Live App
+## 🌐 Live App 
 
 Check out the live demo here:
 🔗 https://kolkata-house-price-prediction-7100.streamlit.app/ 
 
 ---
 
-##🔍 Project Description
+## 🔍 Project Description
 
 This project uses a trained XGBoost Regressor model that analyzes key property features and predicts housing prices accurately. With over 200 locality options, a flexible range of BHK selections from 1 to 20, and a simple interface, this app provides quick and effective results tailored to user input.
 
 ---
 
-##✨ Features
+## ✨ Features
 
 Predict house prices in real-time
 
@@ -33,11 +33,11 @@ Lightweight and runs on local machine
 
 ---
 
-##📊 Model Details
+## 📊 Model Details
 
 Model: XGBoost Regressor
 
-###Features Used:
+### Features Used:
 
 BHK
 
@@ -47,17 +47,17 @@ Total Sq. Ft.
 
 Price per Sq. Ft.
 
-###Preprocessing:
+### Preprocessing:
 
 Location encoded using OrdinalEncoder
 
 Features scaled using StandardScaler
 
-###Target Variable: Predicted house price in Indian Rupees
+### Target Variable: Predicted house price in Indian Rupees
 
 ---
 
-##📂 Project Structure
+## 📂 Project Structure
 
 app.py: Main app script
 
@@ -73,7 +73,7 @@ README.md: Project description and usage guide
 
 ---
 
-##🚀 Possible Future Enhancements
+## 🚀 Possible Future Enhancements
 
 Add a map for choosing locations visually
 
